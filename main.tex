@@ -29,106 +29,10 @@
 \setcounter{tocdepth}{1}
 \DeclareDocumentCommand\vnabla{}{\nabla}
 
-\title{פפס״י - סדנה 2}
-\author{יובל גת, עפרי קארו ויאיר תדהר}
+\title{פפס״י - סדנה 3}
+\author{מאיה יסעור, דן יפה ויובל גת}
 \date{2021, סמסטר א׳}
 \begin{document}
 	\maketitle
-	\section{שאלה 2}
-	הפירוק יביא:
-	\[
-		\begin{cases}
-			\frac{d^2x}{dt^2}=0 \\
-			\frac{d^2y}{dt^2}=-g
-		\end{cases}
-	\]
-	ועל כן נכתוב:
-	\[
-		\begin{cases}
-			\frac{dx}{dt}=v_{0, x} \\
-			\frac{dy}{dt}=v_{0, y}-gt \\
-			\frac{dv_x}{dt}=0 \\
-			\frac{dv_y}{dt}=-g
-		\end{cases}
-	\]
-	על כן מערכת הצעדים שנקבל היא:
-	\[
-		\begin{cases}
-			x_{n+1}=\Delta tv_x+x_n \\
-			y_{n+1}=\Delta t(v_{0, y}-gt_n)+y_n \\
-			(v_x)_{n+1}=(v_x)_n \\
-			(v_y)_{n+1}=-g\Delta t+(v_y)_n
-		\end{cases}
-	\]
-	נעיר כי בחרנו במהירות
-	$v=300\left(\frac{m}{s}\right)$,
-	לאחר התייעצות עם קמ״ד בחק״ב ים.
 	
-	להלן מסלול התנועה של הרקטה:
-	\begin{center}
-		\includegraphics[scale=0.45]{ex2}
-	\end{center}
-	נשים לב שהרקטה פוגעת, במקרה זה, בנקודה
-	$x\approx 9000$.
-	\section{שאלה 3}
-	בחרנו בפרמטרים
-	$C=0.5, A=0.0707(m^3), \rho=1.184(kg/m^3), m=363(kg)$,
-	בהתאם לטיל ״עברי״ וההנחה שהרש״ק שלו חרוטי.
-	נרשום את משוואת התנועה כך:
-	\[
-		m\frac{d^2\vec{r}}{dt^2}=\mqty(-CA\rho\sqrt{v_x^2+v_y^2}v_x \\ -mg-CA\rho\sqrt{v_x^2+v_y^2}v_y)
-	\]
-	ועל כן:
-	\[
-		\begin{cases}
-			x_{n+1}=\Delta tv_x+x_n \\
-			y_{n+1}=\Delta tv_y+y_n \\
-			(v_x)_{n+1}=(v_x)_n-\Delta t\frac{CA\rho}{m}\sqrt{(v_x)_n^2+(v_y)_n^2}(v_x)_n \\
-			(v_y)_{n+1}=(v_y)_n-\Delta tg-\Delta t\frac{CA\rho}{m}\sqrt{(v_x)_n^2+(v_y)_n^2}(v_y)_n
-		\end{cases}
-	\]
-	מסלול הרקטה במקרה זה יראה כך:
-	\begin{center}
-		\includegraphics[scale=0.45]{ex3_normal.png}
-	\end{center}
-	במקרה זה הפגיעה מתרחשת בנקודה
-	$x\approx 5000$,
-	כמעט כמחצית מהמקרה הקודם.
-	בנוסף, ניתן לעשות מספר בדיקות שפיות. הראשונה היא המקרה בו יורים את הרקטה במקביל לקרקע, ומקבלים, כמצופה:
-	\begin{center}
-		\includegraphics[scale=0.45]{ex3_sanity1}
-	\end{center}
-	נוכל גם לירות את הרקטות במאונך לקרקע, ובמקרה זה נקבל:
-	\begin{center}
-		\includegraphics[scale=0.45]{ex3_sanity2}
-	\end{center}
-	נשים לב שמתקבלת פרבולה ש״רוחבה״ קטן מאוד, $10^{-13}$, ולא קו ישר, מהסיבה שלפייתון יש רמת דיוק מסוימת בחישוב ביטויים עם ערכים אי-רציונליים כגון
-	$\pi$.
-	
-	כעת נתבונן בגרף המתאר את מיקום הפגיעה כפונקציה של רמת הדיוק
-	$\Delta t$.
-	אנו רואים שכאשר
-	$\Delta t\to 0$,
-	מיקום הפגיעה מתכנס לנקודה ה״אמיתית״:
-	\begin{center}
-		\includegraphics[scale=0.45]{ex3_dts}
-	\end{center}
-	\section{שאלה 4}
-	להלן הזווית המתאימה לכל מרחק:
-	\begin{center}
-		\includegraphics[scale=0.45]{theta}
-	\end{center}
-	\section{שאלה 5}
-	להלן גרף יירוט הרקטה:
-	\begin{center}
-		\includegraphics[scale=0.45]{intercept.png}
-	\end{center}
-	ניתן גם לשרטט את המרחק כפונקציה של זמן, והנקודה בה המרחק מתאפס היא נקודת היירוט:
-	\begin{center}
-		\includegraphics[scale=0.45]{dist}
-	\end{center}
-	בדיקת השפיות מראה שהזווית במקרה המתואר היא
-	$\approx130^\circ$,
-	כצפוי; אם הרקטות מתנהגות אותו הדבר, המסלולים הם שיקופים זה של זה, ועל כן מצופה מאיתנו לקבל זווית של
-	$180^\circ-50^\circ=130^\circ$.
 \end{document}

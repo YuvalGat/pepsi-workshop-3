@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.8)  30 NOV 2020 17:22
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.8)  31 DEC 2020 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -797,7 +797,7 @@ Package fontspec Info: Font family 'DavidCLM(0)' created for font 'David CLM'
 (fontspec)             CLM/BI/OT"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-(/Users/yuvalgat/Desktop/University/Hebrew University/Physics/Numerical Physics for Systems Analysis/Workshops/Workshop 2/.texpadtmp/main.aux)
+(/Users/yuvalgat/Desktop/University/Miscellanoues/Workshop 3/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -831,7 +831,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
 LaTeX Info: Redefining \nameref on input line 35.
- (/Users/yuvalgat/Desktop/University/Hebrew University/Physics/Numerical Physics for Systems Analysis/Workshops/Workshop 2/.texpadtmp/main.out) (/Users/yuvalgat/Desktop/University/Hebrew University/Physics/Numerical Physics for Systems Analysis/Workshops/Workshop 2/.texpadtmp/main.out)
+ (/Users/yuvalgat/Desktop/University/Miscellanoues/Workshop 3/.texpadtmp/main.out) (/Users/yuvalgat/Desktop/University/Miscellanoues/Workshop 3/.texpadtmp/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -900,47 +900,25 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-)
-File: ex2.png Graphic file (type bmp)
-<ex2.png>
- [1
+) [1
 
 ]
-File: ex3_normal.png Graphic file (type bmp)
-<ex3_normal.png>
- [2]
-File: ex3_sanity1.png Graphic file (type bmp)
-<ex3_sanity1.png>
-File: ex3_sanity2.png Graphic file (type bmp)
-<ex3_sanity2.png>
- [3]
-File: ex3_dts.png Graphic file (type bmp)
-<ex3_dts.png>
- [4]
-File: theta.png Graphic file (type bmp)
-<theta.png>
-File: intercept.png Graphic file (type bmp)
-<intercept.png>
- [5]
-File: dist.png Graphic file (type bmp)
-<dist.png>
- [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
- (/Users/yuvalgat/Desktop/University/Hebrew University/Physics/Numerical Physics for Systems Analysis/Workshops/Workshop 2/.texpadtmp/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+ (/Users/yuvalgat/Desktop/University/Miscellanoues/Workshop 3/.texpadtmp/main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 35158 strings out of 492916
- 695994 string characters out of 6133345
- 806274 words of memory out of 5000000
- 38761 multiletter control sequences out of 15000+600000
- 539210 words of font info for 72 fonts, out of 8000000 for 9000
+ 35099 strings out of 492916
+ 694468 string characters out of 6133345
+ 803272 words of memory out of 5000000
+ 38722 multiletter control sequences out of 15000+600000
+ 537479 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,9n,63p,1243b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,63p,1243b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/yuvalgat/Desktop/University/Hebrew University/Physics/Numerical Physics for Systems Analysis/Workshops/Workshop 2/.texpadtmp/main.pdf (6 pages).
+Output written on /Users/yuvalgat/Desktop/University/Miscellanoues/Workshop 3/.texpadtmp/main.pdf (1 page).

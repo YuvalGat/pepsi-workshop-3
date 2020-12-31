@@ -88,7 +88,6 @@ def system_energy(r_old, r, r_new, dt, L, rc):
     return e_k, u_p, e_tot
 
 
-# @jit
 def verlet_step(r_old, r, dt, L, rc):
     F, virial = LJ_Forces(r, L, rc)
     a = F / m

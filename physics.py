@@ -42,7 +42,7 @@ def LennardJonesForce_fast(r_vec, rc):
 # where F[i,:] is a vector which represents the force that acts on the i-th particle
 # this function also returns the virial
 @jit
-def LJ_Forces(r, L=2, rc=3):
+def LJ_Forces(r, L, rc):
     F = np.zeros_like(r)
     virial = 0
     N = r.shape[0]  # number of particles
@@ -85,13 +85,15 @@ def system_energy(r_old, r, r_new, dt, L, rc):
 
     e_tot = e_k + u_p
 
+    # print(e_k)
     return e_k, u_p, e_tot
 
 
+# @jit
 def verlet_step(r_old, r, dt, L, rc):
     F, virial = LJ_Forces(r, L, rc)
     a = F / m
-    r_new = 2 * r + a * dt * dt - r_old
+    r_new = 2 * r + F * dt * dt - r_old
 
     return r_new, virial
 

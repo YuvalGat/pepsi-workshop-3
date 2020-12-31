@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from dynamics import *
 
-r = T0_config(10e-4, 5, 2, 2.828)
+r = T0_config(10e-4, 15, 7, 1)
 
 
 def draw_r(r):
